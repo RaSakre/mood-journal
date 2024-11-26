@@ -1,0 +1,51 @@
+.affectionPage {
+	margin-top: 60px;
+}
+
+.affectionTitle {
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.affectionList {
+	display: grid;
+	grid-template-columns: repeat(4, minmax(10%, 1fr));
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+	padding: 0px 10px;
+}
+
+.affection {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-width: 70%;
+	min-height: 53px;
+	text-align: center;
+	border: 1px solid #474766;
+	border-radius: 40px;
+	justify-self: center;
+}
+
+.affection:hover {
+	border: 1px solid rgb(234, 143, 235);
+	transition: all 0.4s ease;
+	cursor: pointer;
+}
+
+.affectionActive {
+	color: purple;
+	background-color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-width: 70%;
+	min-height: 53px;
+	text-align: center;
+	border: 2px solid purple;
+	border-radius: 40px;
+	justify-self: center;
+}
+
+

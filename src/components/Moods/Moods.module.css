@@ -1,0 +1,125 @@
+.moods {
+	margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.moodText {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.moodsImages {
+	display: flex;
+	gap: 30px;
+}
+
+.moodsImages div {
+	cursor: pointer;
+	width: 67px;
+	height: 67px;
+}
+
+.angry {
+	background: url('../../moods-images/Angry/Face=Angry, Stage=1.svg') no-repeat 50% 50%;
+	width: 48px;
+	height: 48px;
+}
+
+
+.animationAngry {
+	animation: angry 2s forwards;
+}
+
+
+.angry:hover{
+	background: url('../../moods-images/Angry/Face=Angry, Stage=2.svg') no-repeat 50% 50%;
+}
+.sad {
+	background: url('../../moods-images/Sad/Face=Sad, Stage=1.svg') no-repeat 50% 50%;
+	width: 48px;
+	height: 48px;
+}
+
+.sad:hover{
+	background: url('../../moods-images/Sad/Face=Sad, Stage=2.svg') no-repeat 50% 50%;
+}
+
+.animationSad {
+	animation: sad 2s forwards;
+}
+.neutral {
+	background: url('../../moods-images/Neutral/Face=Neutral, Stage=1.svg') no-repeat 50% 50%;
+	width: 48px;
+	height: 48px;
+}
+.neutral:hover{
+	background: url('../../moods-images/Neutral/Face=Neutral, Stage=2.svg') no-repeat 50% 50%;
+}
+.animationNeutral {
+	animation: neutral 2s forwards;
+}
+.happy{
+	background: url('../../moods-images/Happy/Face=Happy,Stage=1.svg') no-repeat 50% 50%;
+	width: 48px;
+	height: 48px;
+}
+.happy:hover{
+	background: url('../../moods-images/Happy/Face=Happy,Stage=2.svg') no-repeat 50% 50%;
+}
+
+.animationHappy {
+	animation: happy 2s forwards;
+}
+
+.superHappy {
+	background: url('../../moods-images/Super-Happy/Face=Super,Stage=1.svg') no-repeat 50% 50%;
+	width: 48px;
+	height: 48px;
+}
+
+.superHappy:hover {
+	background: url('../../moods-images/Super-Happy/Face=Super,Stage=2.svg') no-repeat 50% 50%;
+}
+
+.animationSuperHappy {
+	animation: superHappy 2s forwards;
+}
+
+@keyframes angry {
+	0% { background-image: url('../../moods-images/Angry/Face=Angry, Stage=1.svg'); }
+    33% { background-image: url('../../moods-images//Angry/Face=Angry, Stage=3.svg'); }
+    66% { background-image: url('../../moods-images/Angry/Face=Angry, Stage=4.svg'); }
+		86% { background-image: url('../../moods-images/Angry/Face=Angry, Stage=5.svg'); }
+    100% { background-image: url('../../moods-images/Angry/Face=Angry, Stage=6.svg'); }
+}
+@keyframes sad {
+	0% { background-image: url('../../moods-images/Sad/Face=Sad, Stage=1.svg'); }
+    33% { background-image: url('../../moods-images/Sad/Face=Sad, Stage=3.svg'); }
+    66% { background-image: url('../../moods-images/Sad/Face=Sad, Stage=4.svg'); }
+		86% { background-image: url('../../moods-images/Sad/Face=Sad, Stage=5.svg'); }
+    100% { background-image: url('../../moods-images/Sad/Face=Sad, Stage=6.svg'); }
+}
+@keyframes neutral {
+	0% { background-image: url('../../moods-images/Neutral/Face=Neutral, Stage=1.svg'); }
+    33% { background-image: url('../../moods-images//Neutral/Face=Neutral, Stage=3.svg'); }
+    66% { background-image: url('../../moods-images/Neutral/Face=Neutral, Stage=4.svg'); }
+		86% { background-image: url('../../moods-images/Neutral/Face=Neutral, Stage=5.svg'); }
+    100% { background-image: url('../../moods-images/Neutral/Face=Neutral, Stage=6.svg'); }
+}
+@keyframes happy {
+	0% { background-image: url('../../moods-images/Happy/Face=Happy,Stage=1.svg'); }
+    33% { background-image: url('../../moods-images/Happy/Face=Happy,Stage=3.svg'); }
+    66% { background-image: url('../../moods-images/Happy/Face=Happy,Stage=4.svg'); }
+		86% { background-image: url('../../moods-images/Happy/Face=Happy,Stage=5.svg'); }
+    100% { background-image: url('../../moods-images/Happy/Face=Happy,Stage=6.svg'); }
+}
+@keyframes superHappy {
+	0% { background-image: url('../../moods-images/Super-Happy/Face=Super,Stage=1.svg'); }
+    33% { background-image: url('../../moods-images/Super-Happy/Face=Super,Stage=3.svg'); }
+    66% { background-image: url('../../moods-images/Super-Happy/Face=Super,Stage=4.svg'); }
+		86% { background-image: url('../../moods-images/Super-Happy/Face=Super,Stage=5.svg'); }
+    100% { background-image: url('../../moods-images/Super-Happy/Face=Super,Stage=6.svg'); }
+}

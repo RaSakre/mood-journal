@@ -1,0 +1,24 @@
+.moodContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.column {
+  flex: 1; /* Каждая колонка занимает равное пространство */
+  padding: 10px; /* Отступы внутри колонок */
+	text-align: center;
+}
+
+
+
+.separator {
+  width: 1px; /* Ширина разделителя */
+  background-color: #ccc; /* Цвет разделителя */
+  height: 15rem; /* Высота разделителя подстраивается под контент */
+}
+
+.affectionItem {
+  margin-right: 10px; /* Отступ между аффектами */
+}
+

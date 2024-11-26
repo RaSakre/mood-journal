@@ -1,0 +1,37 @@
+.moodInfo {
+	margin-top: 60px;
+	padding: 0px 15px;
+}
+
+.moodTitle {
+	margin-bottom: 10px;
+}
+
+.moodText {
+	border: 1px solid #474766;
+	border-radius: 10px;
+	font-size: 18px;
+	padding: 10px 10px;
+}
+
+.moodButton{
+	margin-top: 10px;
+}
+
+.saveMood {
+	color: #F3EBFF;
+	background-color: #892EFF;
+	border-radius: 20px;
+	padding: 15px 15px;
+	max-width: 100%;
+	min-height: 23px;
+}
+
+.saveMood:hover {
+	background-color: #9747FF;
+	transition: all 0.3s ease;
+}
+
+.saveMood:active {
+	background-color: #7A14FF;
+}
