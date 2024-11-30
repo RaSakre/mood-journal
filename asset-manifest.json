@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mood-journal/static/css/main.215b0444.css",
-    "main.js": "/mood-journal/static/js/main.b4c3dbda.js",
+    "main.js": "/mood-journal/static/js/main.1fdb73a6.js",
     "static/media/Face=Super,Stage=3.svg": "/mood-journal/static/media/Face=Super,Stage=3.5d810e6f29424a1f9f33.svg",
     "static/media/Face=Super,Stage=6.svg": "/mood-journal/static/media/Face=Super,Stage=6.6c46b815a3e534cc06d2.svg",
     "static/media/Face=Super,Stage=4.svg": "/mood-journal/static/media/Face=Super,Stage=4.34e6543a8aa35d158a90.svg",
@@ -34,10 +34,10 @@
     "static/media/Face=Sad, Stage=5.svg": "/mood-journal/static/media/Face=Sad, Stage=5.cf43c372555e6028e6f1.svg",
     "index.html": "/mood-journal/index.html",
     "main.215b0444.css.map": "/mood-journal/static/css/main.215b0444.css.map",
-    "main.b4c3dbda.js.map": "/mood-journal/static/js/main.b4c3dbda.js.map"
+    "main.1fdb73a6.js.map": "/mood-journal/static/js/main.1fdb73a6.js.map"
   },
   "entrypoints": [
     "static/css/main.215b0444.css",
-    "static/js/main.b4c3dbda.js"
+    "static/js/main.1fdb73a6.js"
   ]
 }
