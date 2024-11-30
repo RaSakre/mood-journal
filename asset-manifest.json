@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/Mood-Journal/static/css/main.9e0a65be.css",
+    "main.js": "/Mood-Journal/static/js/main.b4c3dbda.js",
+    "static/media/Face=Super,Stage=3.svg": "/Mood-Journal/static/media/Face=Super,Stage=3.5d810e6f29424a1f9f33.svg",
+    "static/media/Face=Super,Stage=6.svg": "/Mood-Journal/static/media/Face=Super,Stage=6.6c46b815a3e534cc06d2.svg",
+    "static/media/Face=Super,Stage=4.svg": "/Mood-Journal/static/media/Face=Super,Stage=4.34e6543a8aa35d158a90.svg",
+    "static/media/Face=Super,Stage=5.svg": "/Mood-Journal/static/media/Face=Super,Stage=5.469d2e6993c6b2b41cf9.svg",
+    "static/media/Face=Sad, Stage=4.svg": "/Mood-Journal/static/media/Face=Sad, Stage=4.87efb3ba8a86df077ca8.svg",
+    "static/media/Face=Happy,Stage=6.svg": "/Mood-Journal/static/media/Face=Happy,Stage=6.1a4cbb21852fd540684c.svg",
+    "static/media/Face=Happy,Stage=5.svg": "/Mood-Journal/static/media/Face=Happy,Stage=5.43372196558ff8d51faa.svg",
+    "static/media/Face=Happy,Stage=4.svg": "/Mood-Journal/static/media/Face=Happy,Stage=4.ccd15a491138c1a3852b.svg",
+    "static/media/Face=Happy,Stage=3.svg": "/Mood-Journal/static/media/Face=Happy,Stage=3.8dab8d60f7b6c2349858.svg",
+    "static/media/Face=Angry, Stage=2.svg": "/Mood-Journal/static/media/Face=Angry, Stage=2.2afc82a3c8a944d6845e.svg",
+    "static/media/Face=Angry, Stage=1.svg": "/Mood-Journal/static/media/Face=Angry, Stage=1.c69845a5071d25095f84.svg",
+    "static/media/Face=Super,Stage=2.svg": "/Mood-Journal/static/media/Face=Super,Stage=2.e4419efd786383af2b8e.svg",
+    "static/media/Face=Angry, Stage=6.svg": "/Mood-Journal/static/media/Face=Angry, Stage=6.5e953511cf49044797bb.svg",
+    "static/media/Face=Angry, Stage=3.svg": "/Mood-Journal/static/media/Face=Angry, Stage=3.f88d9a747584d021fb2a.svg",
+    "static/media/Face=Angry, Stage=5.svg": "/Mood-Journal/static/media/Face=Angry, Stage=5.5947cf38669e8a371df6.svg",
+    "static/media/Face=Angry, Stage=4.svg": "/Mood-Journal/static/media/Face=Angry, Stage=4.4d48d141870b13f099a4.svg",
+    "static/media/Face=Super,Stage=1.svg": "/Mood-Journal/static/media/Face=Super,Stage=1.adbe8524e37d162de1f0.svg",
+    "static/media/Face=Neutral, Stage=2.svg": "/Mood-Journal/static/media/Face=Neutral, Stage=2.6a03c2cff8138d6185e6.svg",
+    "static/media/Face=Sad, Stage=2.svg": "/Mood-Journal/static/media/Face=Sad, Stage=2.c48d53b210fcef7f6fa6.svg",
+    "static/media/Face=Happy,Stage=2.svg": "/Mood-Journal/static/media/Face=Happy,Stage=2.4970c4330dcb0d62c037.svg",
+    "static/media/Face=Sad, Stage=1.svg": "/Mood-Journal/static/media/Face=Sad, Stage=1.0cc8b62c23e49ed4bf13.svg",
+    "static/media/Face=Happy,Stage=1.svg": "/Mood-Journal/static/media/Face=Happy,Stage=1.0010051608c8555ec7c2.svg",
+    "static/media/Face=Neutral, Stage=4.svg": "/Mood-Journal/static/media/Face=Neutral, Stage=4.57e0ef3c9a8a8661ab15.svg",
+    "static/media/Face=Sad, Stage=3.svg": "/Mood-Journal/static/media/Face=Sad, Stage=3.b0f13e109124c0f6610a.svg",
+    "static/media/Face=Sad, Stage=6.svg": "/Mood-Journal/static/media/Face=Sad, Stage=6.9cbf20a85797559a8e02.svg",
+    "static/media/Face=Neutral, Stage=1.svg": "/Mood-Journal/static/media/Face=Neutral, Stage=1.e9399502d510d74b2188.svg",
+    "static/media/Face=Neutral, Stage=5.svg": "/Mood-Journal/static/media/Face=Neutral, Stage=5.cd8e973187f61a91ed5b.svg",
+    "static/media/Face=Neutral, Stage=3.svg": "/Mood-Journal/static/media/Face=Neutral, Stage=3.3b14d47c755ad6176351.svg",
+    "static/media/Face=Neutral, Stage=6.svg": "/Mood-Journal/static/media/Face=Neutral, Stage=6.343ecc17c0fd2ea24284.svg",
+    "static/media/Face=Sad, Stage=5.svg": "/Mood-Journal/static/media/Face=Sad, Stage=5.cf43c372555e6028e6f1.svg",
+    "index.html": "/Mood-Journal/index.html",
+    "main.9e0a65be.css.map": "/Mood-Journal/static/css/main.9e0a65be.css.map",
+    "main.b4c3dbda.js.map": "/Mood-Journal/static/js/main.b4c3dbda.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9e0a65be.css",
+    "static/js/main.b4c3dbda.js"
+  ]
+}
