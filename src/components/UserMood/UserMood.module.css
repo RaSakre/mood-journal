@@ -22,3 +22,14 @@
   margin-right: 10px; /* Отступ между аффектами */
 }
 
+.backButton{
+	display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  align-items: center;
+}
+
+.backButton a {
+	color: white;
+}
+

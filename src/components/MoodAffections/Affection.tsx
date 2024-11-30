@@ -1,4 +1,4 @@
-import styles from './AffectionsList.module.css'
+import { AffectionUI } from './AffectionUI';
 import { useRef, useState, useContext } from 'react'
 import { MoodContext } from '../../App';
 
@@ -15,8 +15,11 @@ export const Affection = (props:any) => {
 		}
   };
 	return (
-			<div ref={affectionRef} onClick={handleClick}  className={`${styles.affection} ${isActive ? styles.affectionActive : ''}`}>
-				<p>{props.affect}</p>
-			</div>
+    <AffectionUI
+      affectionRef={affectionRef}
+      isActive={isActive}
+      handleClick={handleClick}
+      affect={props.affect}
+    />
 	)
 }

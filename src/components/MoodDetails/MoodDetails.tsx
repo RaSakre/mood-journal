@@ -1,4 +1,4 @@
-import styles from './MoodDetails.module.css'
+import { MoodDetailsUI } from './MoodDetailsUI'
 import { useRef } from 'react'
 import { useContext } from 'react'
 import { MoodContext } from '../../App'
@@ -16,14 +16,9 @@ export const MoodDetails = () => {
 		}
 	}
 	return (
-		<div className={styles.moodInfo}>
-			<h3 className={styles.moodTitle}>Напишите об этом</h3>
-			<form onSubmit={handleSubmit}>
-				<textarea ref={textRef} placeholder='Опишите свои чувства подробнее, если хотите' rows={4} cols={40} className={styles.moodText}></textarea>
-				<div className={styles.moodButton}>
-					<button className={styles.saveMood}>Сохранить чувства</button>
-				</div>
-			</form>
-		</div>
+		<MoodDetailsUI
+		handleSubmit={handleSubmit}
+		textRef={textRef}
+		/>
 	)
 }

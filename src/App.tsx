@@ -7,7 +7,7 @@ import { createContext, ReactNode, useState } from 'react';
 import { Route, Routes, BrowserRouter} from 'react-router-dom';
 import { UserMood } from './components/UserMood/UserMood';
 
-interface IMood {
+export interface IMoodContext {
 	mood: string;
 	affections: string[];
 	moodDetails:string;
@@ -17,7 +17,7 @@ interface IMood {
 	addMoodDetails: (moodDetails:string) => void;
 }
 
-export const MoodContext = createContext<IMood>({
+export const MoodContext = createContext<IMoodContext>({
 	mood: "",
 	affections: [],
 	moodDetails: "",
